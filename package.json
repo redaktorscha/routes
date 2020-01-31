@@ -1,0 +1,18 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "description": "homework, see task file, npm start to run, diff versions of algorithm see 'versions' dir",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run backend & npm run dev",
+    "dev": "php -S localhost:8000",
+    "backend": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
